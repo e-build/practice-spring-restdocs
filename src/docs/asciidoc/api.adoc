@@ -1,0 +1,24 @@
+// 예시
+ifndef::snippets[]
+:snippets: ./build/generated-snippets
+endif::[]
+
+= RESTful Notes API Guide
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+:toc: left
+:toclevels: 4
+:sectnums:
+:sectlinks:
+:sectanchors:
+
+== Product 생성
+===== 요청
+include::{snippets}/product/create/curl-request.adoc[]
+include::{snippets}/product/create/http-request.adoc[]
+//include::{snippets}/product/path-parameters.adoc[]
+include::{snippets}/product/create/request-fields.adoc[]
+===== 응답
+include::{snippets}/product/create/http-response.adoc[]
+include::{snippets}/product/create/response-fields.adoc[]
